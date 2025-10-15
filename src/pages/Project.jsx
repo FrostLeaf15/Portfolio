@@ -1,17 +1,17 @@
 function Project() {
     const projects = [
         {
-            title: "Portofolio Website",
+            title: "First Portofolio Website",
             desc: "Portofolio pribadi yang dibuat menggunakan React dan Tailwind CSS yang menampilkan project dan keahlian saya.",
             tech: ["React", "Tailwind CSS"],
-            img: "https://via.pleacholder.com/400x250",
+            img: "./src/assets/img/portfolio.png",
             link: "#",
         },
         {
             title: "Sistem Informasi Sekolah",
             desc: "Aplikasi web yang dibuat menggunankan Laravel dan MySQL untuk mengelola data siswa, kelulusan, dan jadwal kelas.",
             tech: ["Laravel", "MySQL", "Bootstrap"],
-            img: "https://via.pleacholder.com/400x250",
+            img: "./src/assets/img/webschool.png",
             link: "#",
         },
         {

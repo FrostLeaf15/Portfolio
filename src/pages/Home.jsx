@@ -1,6 +1,8 @@
 import Project from "./Project"
 import About from "./About"
 import Contact from "./Contact"
+import Button from "../components/Button"
+import Skill from "../components/Skill";
 
 function Home() {
     return (
@@ -12,16 +14,15 @@ function Home() {
                 </h1>
 
                 <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-                    Saya adalah <span className="text-green-400 font-semibold">Frontend Developer</span>
+                    Saya adalah <span className="text-green-400 font-semibold"><Skill /></span>
                 </p>
 
                 <div className="pt-4">
-                    <a
-                    href="/project"
-                    className="inline-block px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg text-lg font-medium transition-all duration-200"
-                    >
-                        View My Projects
-                    </a>
+                    <Button
+                        href="/project"
+                        className="inline-block px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg text-lg font-medium transition-all duration-200"
+                        label="Lihat Project"
+                    />
                 </div>
             </div>
         </section>
